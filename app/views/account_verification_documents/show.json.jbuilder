@@ -1,0 +1,1 @@
+json.partial! "account_verification_documents/account_verification_document", account_verification_document: @account_verification_document

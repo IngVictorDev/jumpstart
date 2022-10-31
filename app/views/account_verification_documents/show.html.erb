@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @account_verification_document.title %>
+</p>
+
+<p>
+  <strong>Image data:</strong>
+  <%= image_tag @account_verification_document.image_url if @account_verification_document.image %>
+</p>
+
+<%= link_to 'Edit', edit_account_verification_document_path(@account_verification_document) %> |
+<%= link_to 'Back', account_verification_documents_path %>
